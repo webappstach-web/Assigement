@@ -1,0 +1,252 @@
+input{
+    padding: 2px;
+    border: 32px;
+    color: black;
+    background-color: powderblue;
+    outline: none;
+}
+input text{
+    color: brown;
+}
+input.text:focus{
+    color: #665544;
+    background-color:  hsl(58, 46%, 50%);
+}
+input.submit {
+    color: black;
+}
+input.submit:hover{
+    background-color: indigo;
+}
+input.submit:active{
+    background-color: chocolate;
+}
+
+div.box {
+    height: 300px;
+    width: 300px;
+    background-color: #bbbbaa;
+}
+
+p {
+    height: 75%;
+    width: 75%;
+    background-color: palegreen;
+}
+
+
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: right;
+    padding: 100px;
+    margin: 0px;
+}
+
+
+h2.p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+h2{
+    color: #665544;
+    border-bottom: 1px solid #bbbbaa;
+}
+p{
+    min-height: 10px;
+    max-height: 30px;
+}
+
+p.one{
+    overflow: hidden;
+}
+p.two{
+    overflow: scroll;
+}
+
+p.one{
+    border-width: 2px;
+}
+p.two {
+    border-width: thick;
+}
+p.three{
+    border-width: 1px 4px 12px 4px;
+}
+
+p.one {border-style: solid;}
+p.two {border-style: dotted;}
+p.three {border-style: dashed;}
+p.four {border-style: double;}
+p.five {border-style: groove;}
+p.six {border-style: ridge;}
+p.seven {border-style: inset;}
+p.eight {border-style: outset;}
+
+p.one{
+    border-color: #0088dd;
+}
+p.two {
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+p{
+    width: 350px;
+    border: 3px dotted #0088dd;
+}
+p{
+    width: 350px;
+}
+p.example {
+    padding: 10px;
+}
+
+p{
+    width: 350px;
+    border: 2px solid #0088dd;
+    padding: 10px;
+}
+p.example {
+    margin: 20px;
+}
+
+bod{
+    text-align: center;
+}
+p{
+    width: 300px;
+    padding: 50px;
+    border: 20px solid #0088dd;
+}
+p.example {
+    margin: 10px auto 10px auto;
+    text-align: left;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+li.coming-soon {
+    display: none;
+}
+p.one {
+   border-image: url(./images.jpg) 11 11 11 11 stretch;
+   border-image: url(./images.jpg) 11 11 11 11 stretch;
+   border-image: url(./images.jpg) 11 11 11 11 stretch
+}
+p.two {
+    border-image: url(./images.jpg) 11 11 11 11 stretch;
+    border-image: url(./images.jpg) 11 11 11 11 stretch;
+    border-image: url(./images.jpg) 11 11 11 11 stretch;
+}
+
+
+p {
+    width: 200px;
+    padding: 15px;
+    margin: 20px;
+    background-color: #777777;
+}
+p.one {
+        box-shadow: 5px 5px 5px #665544;
+}
+p.two {
+    box-shadow: 5px 5px 5px #eeeeee
+}
+p.three {
+    box-shadow: 5px 5px 5px 5px 5px #665544
+}
+p.four {
+    box-shadow: 0 0 10px #777777;
+}
+p.five {
+    box-shadow: inset 0 0 #665544;
+}
+
+p {
+    border: 5px solid #bbbbaa;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p {
+    width: 200px;
+    padding: 15px;
+    margin: 20px;
+    background-color: #eeeeee;
+}
+p.one {
+    border-top-left-radius: 80px 50px;
+}
+p.two {
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+p.three {
+    padding: 0;
+    border-radius: 100px;
+}
+
+ol {
+list-style-type: lower-roman;
+}
+ul{
+    list-style-image: url(./images.jpg);
+}
+li {
+    margin: 10px 0px 0px 0px;
+}
+ul {
+    list-style-image: url(./images.jpg);
+}
+li {
+    margin: 10px 0px 0px 0px;
+}
+
+
+ul {
+    width: 150px;
+}
+li {
+    margin: 10px;
+}
+ol.illuminations {
+    list-style-position: outside;
+}
+ol.season {
+    list-style-position: inside;
+}
+
+
+ul{
+    list-style: inside circle;
+    width: 300px;
+}
+li {
+    margin: 10px ;
+}
+
+
+
+td{
+    border: 1px solid #ee3e80;
+    padding: 15px;
+    height: 5px;
+    width: 20px;
+    background-color: #ee3e80;
+}
+table.one {
+    empty-cells: show;
+}
+table.two{
+    empty-cells: show;
+}
+
+
+
+
+
+
+
